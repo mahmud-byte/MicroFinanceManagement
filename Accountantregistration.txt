@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accountant Registration</title>
+</head>
+
+<body>
+    
+    <center>
+    <h1>MicroFinance Management</h1>
+    <h3>Accountant Registration</h3>
+    </center>
+
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <table cellpadding="5">
+                <tr>
+                    <td>First Name:</td>
+                 <td>
+            <input type="text" id="firstname"
+                   name="firstname" required>
+                 </td>
+                </tr>
+                <tr>
+        <td>Last Name:</td>
+        <td>
+            <input type="text" id="lastname"
+                   name="lastname" required>
+        </td>
+        </tr>
+
+
+                <tr>
+                    <td>Employee ID:</td>
+                    <td><input type="text"  name="employeeid" required></td>
+                </tr>
+            
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="tel" name="phone" required></td>
+                </tr>
+                
+
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="email" required></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Professional Details</legend>
+
+            <table cellpadding="5">
+                <tr>
+                    <td>Qualification:</td>
+                    <td>
+                        <select id="qualification" name="qualification" required>
+                            <option value="">Select Qualification</option>
+                            <option>HSC</option>
+                            <option>BBA</option>
+                            <option>B.Com</option>
+                            <option>MBA</option>
+                            <option>M.Com</option>
+                            <option>Other</option>
+                        </select>
+                    </td>
+                </tr>
+                
+
+                <tr>
+                    <td>Experience:</td>
+                    <td>
+                        <select id="experience" name="experience" required>
+                            <option value="">Select Experience</option>
+                            <option>Fresher</option>
+                            <option>1-2 Years</option>
+                            <option>3-5 Years</option>
+                            <option>5+ Years</option>
+                        </select>
+                    </td>
+                </tr>
+                
+
+                <tr>
+                    <td>Assigned Branch:</td>
+                    <td>
+                        <select id="branch" name="branch" required>
+                            <option value="">Select Branch</option>
+                            <option>Dhaka</option>
+                            <option>Chattogram</option>
+                            <option>Rajshahi</option>
+                            <option>Khulna</option>
+                            <option>Sylhet</option>
+                        </select>
+                    </td>
+                </tr>
+                
+
+                <tr>
+                    <td>Joining Date:</td>
+                    <td><input type="date"  name="joiningdate" required></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Login Details</legend>
+
+            <table cellpadding="5">
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" required></td>
+                </tr>
+            
+
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password"  name="password" minlength="8" required></td>
+                </tr>
+                
+
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input type="password"  name="confirmpassword" minlength="8" required></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <center>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </center>
+
+    </form>
+
+</body>
+</html>

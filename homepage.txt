@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HomePage</title>
+</head>
+
+<body>
+    <center>
+        <h1>MicroFinance Management</h1>
+        <h3>Simple, Reliable and Organized Financial Management</h3>
+    </center>
+
+    <hr>
+
+    <center>
+        <a href="HomePage.html">Home</a> |
+        <a href="adminregistration.html">Admin</a> |
+        <a href="#about">About Us</a> |
+        <a href="#services">Our Services</a> |
+        <a href="FinancialSystem">Financial System</a> |
+        <a href="loan">Loan Policy</a> |
+        <a href="remitteances">Remittances</a> |
+        <a href="#contact">Contact Us</a> |
+    </center>
+
+    <hr>
+
+    <center>
+        <h2>Welcome to MicroFinance Management System</h2>
+        <p>
+            Our system helps organize financial activities and 
+            makes daily management easier
+        </p>
+
+        <br>
+
+        <button><a href="login.html">Login Here</a></button>
+        <button><a href="accountantregistration.html">Register Here</a></button>
+    </center>
+
+    <hr>
+
+    <center><h2 id="about">About Us</h2></center>
+
+    <center>
+    <p>
+    MicroFinance Management is a system designed to
+    simplify and organize microfinance activities.
+    It helps manage customer information, loan records,
+    payment details and financial reports efficiently.
+    Our goal is to make financial record management
+    easier, faster and more organized for microfinance
+    institutions and their employees.
+    Our vision is to support efficient microfinance
+    operations through better information management
+    and improved accessibility of financial records.
+    </p>
+    </center>
+
+    <hr>
+
+    <center>
+        <h2 id="services">Our Services</h2>
+    </center>
+
+    <hr>
+
+    <center>
+    <h3> Customer Management</h3>
+
+    <p>
+        Maintain customer information and personal records.
+    </p>
+
+    <h3> Loan Management</h3>
+
+    <p>
+        Organize loan information, applications and loan records.
+    </p>
+
+    <h3> Payment Management</h3>
+
+    <p>
+        Maintain payment records and transaction information.
+    </p>
+
+   <h3> Financial Reports</h3>
+
+    <p>
+        View organized financial information and account summaries.
+    </p>
+
+    <hr>
+
+    </center>
+
+    <center>
+        <h2 id="contact">Contact Us</h2>
+
+        <p>
+            Please contact us for further information.
+        </p>
+
+        <p>
+            <label>Email:</label>
+            <a href="support@example.com">microfinance@gmail.com</a>
+        </p>
+
+        <p>
+        <label>Phone:</label>
+        <a href="tel">+880 1234567890</a>
+        </p>
+
+    </center>
+
+    <hr>
+
+    <center>
+        <p>
+            &copy; 2026 MicroFinance Management.
+            All Rights Reserved.
+        </p>
+    </center>
+
+</body>
+</html>
