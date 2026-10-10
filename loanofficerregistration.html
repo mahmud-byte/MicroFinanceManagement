@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Loan Officer Registration</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>MicroFinance Management</h1>
+        <h2>Loan Officer Registration</h2>
+        <h3>Registration Details</h3>
+    </center>
+
+    <br>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <table>
+                <tr>
+                    <td>Full Name:</td>
+                    <td>
+                        <input type="text" name="fullname" required>
+                    </td>
+
+                    <td>Employee ID:</td>
+                    <td>
+                        <input type="text" name="employeeid" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>NID Number:</td>
+                    <td>
+                        <input type="text" name="nid" required>
+                    </td>
+
+                    <td>Joining Date:</td>
+                    <td>
+                        <input type="date" name="joiningdate" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Contact Information</legend>
+
+            <table>
+                <tr>
+                    <td>Phone:</td>
+                    <td>
+                        <input type="tel" name="phone" required>
+                    </td>
+
+                    <td>Email:</td>
+                    <td>
+                        <input type="email" name="email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Address:</td>
+                    <td colspan="3">
+                        <textarea name="address" rows="3" cols="30" required></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Branch Information</legend>
+
+            <table>
+                <tr>
+                    <td>Assigned Branch:</td>
+                    <td>
+                        <select name="branch" required>
+                            <option value="">Select Branch</option>
+                            <option>Dhaka Branch</option>
+                            <option>Chattogram Branch</option>
+                            <option>Sylhet Branch</option>
+                            <option>Rajshahi Branch</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Account Information</legend>
+
+            <table>
+                <tr>
+                    <td>Username:</td>
+                    <td>
+                        <input type="text" name="username" required>
+                    </td>
+
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" name="password" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <input type="checkbox" name="confirmation" required>
+        I confirm all information is accurate.
+
+        <br><br>
+
+        <center>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </center>
+
+        <br>
+
+        <center>
+            Already have an account?
+            <a href="LoginPage.html">Login Here</a>
+        </center>
+
+        <br>
+
+        <center>
+            <a href="HomePage.html">Back to Home</a>
+        </center>
+
+    </form>
+
+</body>
+</html>
