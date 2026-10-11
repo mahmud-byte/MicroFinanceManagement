@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Borrower Registration</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>MicroFinance Management</h1>
+        <h2>Borrower / Member Registration</h2>
+        <p>Register as a Borrower</p>
+    </center>
+
+    <hr>
+
+    <center>
+        <a href="HomePage.html">Home</a> |
+        <a href="LoginPage.html">Login</a>
+    </center>
+
+    <hr>
+
+    <center>
+        <h2>Registration Form</h2>
+    </center>
+
+    <form>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <table>
+                <tr>
+                    <td>Full Name:</td>
+                    <td>
+                        <input type="text" name="fullname" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Date of Birth:</td>
+                    <td>
+                        <input type="date" name="dob" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>NID Number:</td>
+                    <td>
+                        <input type="text" name="nid" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Phone Number:</td>
+                    <td>
+                        <input type="tel" name="phone" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Email:</td>
+                    <td>
+                        <input type="email" name="email">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Present Address:</td>
+                    <td>
+                        <textarea name="presentaddress" rows="3" required></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Permanent Address:</td>
+                    <td>
+                        <textarea name="permanentaddress" rows="3" required></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Occupation and Loan Information</legend>
+
+            <table>
+                <tr>
+                    <td>Occupation:</td>
+                    <td>
+                        <input type="text" name="occupation" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Monthly Income:</td>
+                    <td>
+                        <input type="number" name="income" min="0" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Loan Purpose:</td>
+                    <td>
+                        <textarea name="loanpurpose" rows="3" required></textarea>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Family Member Information</legend>
+
+            <table>
+                <tr>
+                    <td>Family Member Name:</td>
+                    <td>
+                        <input type="text" name="familyname" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Relationship:</td>
+                    <td>
+                        <input type="text" name="relationship" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Number of Family Members:</td>
+                    <td>
+                        <input type="number" name="familymembers" min="1" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <br>
+
+        <center>
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+        </center>
+
+    </form>
+
+    <hr>
+
+    <center>
+        <p>
+            &copy; 2026 MicroFinance Management.
+            All Rights Reserved.
+        </p>
+    </center>
+
+</body>
+</html>
